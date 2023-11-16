@@ -23,7 +23,7 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 project_highlight:
-  - image_path: assets\images\thesisMainPicture.png
+  - image_path: assets/images/thesisMainPicture.png
     image_url: /projects/thesis
     alt: "Picture of thesis project"
     title: "Escape Room Digital Minigames Further Development"
