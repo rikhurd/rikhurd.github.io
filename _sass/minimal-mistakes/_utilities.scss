@@ -598,11 +598,19 @@ a.reversefootnote {
 
   .accordion-section-header {
     cursor: pointer;
+    opacity: 0.75;
   }
+  .accordion-section-header:hover {
+      opacity: 1;
+    }
+
+    .accordion-section-header.active {
+      opacity: 1;
+    }
 
   .accordion-section-header::before {
     content: "+";
-    display: inline-block; /* Ensures the rotation works */
+    display: inline-block;
     font-weight: normal;
     font-size: 130%;
     position: absolute;
@@ -611,19 +619,19 @@ a.reversefootnote {
   }
 
   .accordion-section-header.active::before {
-    transform: rotate(-45deg); /* Rotated state */
+    transform: rotate(-45deg);
   }
 
   .accordion-section-content {
-    display: block; /* Initially set to none */
+    display: block;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out; /* Adjust the duration as needed */
+    transition: max-height 0.3s ease-in-out;
   }
 
   .accordion-section-content.is--visible {
-    display: block; /* Display when is--visible is added */
-    transition-delay: 0.1s; /* Delay the transition for a smoother effect */
+    display: block;
+    transition-delay: 0.1s;
 
       .accordion-section-content::after {
         content: "";
