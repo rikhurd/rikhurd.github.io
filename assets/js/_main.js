@@ -53,6 +53,16 @@ $(function() {
     }, 400);
   });
 
+  // Accordion toggle
+  $(".accordion-section-header").on("click", function() {
+    var content = $(this).siblings(".accordion-section-content");
+    content.toggleClass("is--visible");
+    $(this).toggleClass("active");
+
+    var maxHeight = content.hasClass("is--visible") ? content[0].scrollHeight + "px" : 0;
+    content.css("max-height", maxHeight);
+  });
+
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
     offset: 20,
@@ -121,7 +131,7 @@ $(function() {
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
-  // Add anchors for headings
+  /* Add anchors for headings
   $('.page__content').find('h1, h2, h3, h4, h5, h6').each(function() {
     var id = $(this).attr('id');
     if (id) {
@@ -133,4 +143,5 @@ $(function() {
       $(this).append(anchor);
     }
   });
+  */
 });

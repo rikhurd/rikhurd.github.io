@@ -591,3 +591,43 @@ a.reversefootnote {
     position: static;
   }
 }
+
+/*
+   Accordion
+   ========================================================================== */
+
+  .accordion-section-header {
+    cursor: pointer;
+  }
+
+  .accordion-section-header::before {
+    content: "+";
+    display: inline-block; /* Ensures the rotation works */
+    font-weight: normal;
+    font-size: 130%;
+    position: absolute;
+    right: 0.5rem;
+    transition: all 0.15s ease-in-out;
+  }
+
+  .accordion-section-header.active::before {
+    transform: rotate(-45deg); /* Rotated state */
+  }
+
+  .accordion-section-content {
+    display: block; /* Initially set to none */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Adjust the duration as needed */
+  }
+
+  .accordion-section-content.is--visible {
+    display: block; /* Display when is--visible is added */
+    transition-delay: 0.1s; /* Delay the transition for a smoother effect */
+
+      .accordion-section-content::after {
+        content: "";
+        display: block;
+      }
+    }
+
