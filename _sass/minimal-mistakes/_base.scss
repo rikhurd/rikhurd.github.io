@@ -208,6 +208,7 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    border: 2px groove #ccc;
   }
 
   > a {
