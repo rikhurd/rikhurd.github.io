@@ -6,10 +6,16 @@ permalink: /
 intro: 
   - excerpt: "**Hello and welcome to my portfolio website!** <br><br> **Work In Progress**"
 feature_row:
-  - #image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: assets/images/WUHDxe.gif
+    alt: "Auranet image"
+    title: "AuraNet - Bigmode Gamejam 2023 Submission"
+    excerpt: "AuraNet was part of Bigmode Gamejam in 2023. In this project I worked as a programmer in an international team of 5 people."
+    url: "/projects/auranet"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    url2: "https://busterbluegame.itch.io/auranet"
+    btn_label2: "itch.io page"
+    btn_class2: "btn--primary"
   - #image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
