@@ -16,11 +16,11 @@ feature_row:
     url2: "https://busterbluegame.itch.io/auranet"
     btn_label2: "itch.io page"
     btn_class2: "btn--primary"
-  - #image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/batterBlur.png
     #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "Batter image"
+    alt: "Blurred Batter image"
     title: "Batter"
-    excerpt: "Information page coming soon."
+    excerpt: "Study project to get more familiar with memory management. Developed in RayLib. <br><br>Information page coming soon."
   - #image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     #title: "Placeholder 3"
     #excerpt: "This is some sample content that goes here with **Markdown** formatting."
