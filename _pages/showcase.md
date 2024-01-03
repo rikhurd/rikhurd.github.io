@@ -20,7 +20,7 @@ feature_row:
     #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Blurred Batter image"
     title: "Batter"
-    excerpt: "Study project to get more familiar with memory management. Developed in RayLib. <br><br>Information page coming soon."
+    excerpt: "Study project to get more familiar with memory management and game development in general without a game engine. Developed in RayLib. <br><br>Information page coming soon."
   - #image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     #title: "Placeholder 3"
     #excerpt: "This is some sample content that goes here with **Markdown** formatting."
