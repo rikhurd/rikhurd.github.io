@@ -7,10 +7,10 @@ layout: single
 toc: false
 ---
 
-I'm a recent graduate from Karelia University of Applied Sicences where I studied for Business Information Technology with huge passion towards programming and problem solving.
+I'm a recent graduate from Karelia University of Applied Sciences where I studied for Business Information Technology with a huge passion towards problem solving and all kinds of technology.
 
-Expeirence I have is mainly in web development, but I would like to deepen my experience in software programming and programming in general.
+My programming experience is mainly in web development and C++ game programming.
 
-Game Development is a hobby I got interested about since I have always liked games and was curious how they were made. Through game development hobby I wish I will become better programmer too.
+Game Development is a hobby I got interested about since I have always liked games and was curious how they were made. Through my hobby of game development, I aim to improve my programming and problem-solving skills.
 
 Feel free to contact me through email or LinkedIn!
